@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Menus</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="press">Presione para menu contextual</string>
+    <string name="Descripcion">Este programa muestra los diferentes tipos de menu que puede haber una aplicación.</string>
+    <string name="OcionMenu">Seleccione una opción del menu</string>
+    <string name="Agregar">Capture el texto a agregar al menu y presione Agregar</string>
+    <string name="Agrega">Agregar al menu</string>
+</resources>

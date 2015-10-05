@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group android:id="@+id/my_group" android:checkableBehavior="all">
+        <item android:id="@+id/item_dos" android:titleCondensed="Opc 2" android:title="Opción dos"></item>
+        <item android:id="@+id/item_tres" android:title="Opción tres" android:checked="true"></item>
+    </group>
+    <group android:id="@+id/my_group2" android:checkableBehavior="single">
+        <item android:id="@+id/item_cuatro" android:titleCondensed="Opc 4" android:title="Opción cuatro"></item>
+        <item android:id="@+id/item_cinco" android:title="Opción cinco" android:checked="true"></item>
+        <item android:id="@+id/item_seis" android:titleCondensed="Opc 6" android:title="Opción seis"></item>
+    </group>
+    <item android:id="@+id/item_siete" android:title="Opción siete"></item>
+    <item android:id="@+id/sub_menu" android:title="SubMenu">
+        <menu>
+            <item android:id="@+id/sub_uno" android:title="Sub Menú uno" />
+            <item android:id="@+id/sub_dos" android:title="Sub menu dos" android:numericShortcut="3" />
+
+        </menu>
+    </item>
+
+</menu>
